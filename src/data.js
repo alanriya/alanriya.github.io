@@ -11,8 +11,8 @@ export const projects = [
     title: "Market Data DartBoard",
     subtitle: "Python 3.9 and RabbitMQ",
     description:
-      "This project simulates the how market data flows from exchange to the client. A server will read a dummmy file that contains market data in their native protocol and sends it through a TCP connection through RabbitMQ 's topic exchange. Another client application will receive the data and trys to build the book, the book state is then published over the another TCP connection to any client subscribing to the market data to display a dart board.",
-    image: "./project-2.gif",
+      "This project simulates the how market data flows from exchange to the client. A server will read a dummmy file that contains market data in their native protocol and sends it through a TCP connection through RabbitMQ 's topic exchange. Another client application will receive the data and trys to build the book, the book state is then published over the another TCP connection to any client subscribing to the market data to display a dart board. This project still lacks a frontend UI that is fast enough to handle large volume of data and rendering them at the same time.",
+    image: "./marketParser.gif",
     link: "https://github.com/alanriya",
   },
   {
