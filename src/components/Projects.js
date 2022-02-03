@@ -12,15 +12,15 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Projects that I have built using primarily C++ and python. I am currently learning C# to upgrade myself.
+            A series of projects that I have built using primarily C++ and Python. I am currently learning C# to upgrade myself.
           </p>
           <br/>
           <p>
-            Other than the programming languages, I have some knowledge in workflow engine like apache airflow to automate and monitor data pipelines. I also have experience in messaging broker platform like RabbitMQ to set up, publish and consume messages from topic exchanges.
+            Other than the programming languages, I have some knowledge in workflow engine softwares like Apache Airflow to automate and monitor data pipelines. I am also experienced with using messaging broker platforms like RabbitMQ to set up, publish and consume messages from topic exchanges for different projects.
           </p>
           <br/>
           <p>
-            If you are unable to see the projects, please get in touch with me through my gmail.
+            If you are unable to see the projects, please get in touch with me through my <a href="mailto:alan.leeyungchong@gmail.com" className="text-white body-font">gmail</a>.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

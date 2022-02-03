@@ -45,7 +45,7 @@ export const backgrounds = [
   {
     cardTitle: 'BondIT Global, Data Analyst Internship',
     cardSubtitle:
-      "Embarked on a 6 months internship at a Financial Technology in Israel.",
+      "Embarked on a 6-months internship at a Financial Technology company in Israel.",
     title: "Jan 2018 - Jun 2019",
     cardDetailedText: "Led the research of an algorithm analysing the interpolated and zero-volatility spreads of similar bond groups using Python which was subsequently implemented in the mainframe and improved BondIT's proactive trade call",
   },
@@ -54,7 +54,7 @@ export const backgrounds = [
     cardSubtitle:
       "Graduated with Bachelors in Chemical Engineering (Honours with Distinction) from National University of Singapore.",
     title: "Jun 2019",
-    cardDetailedText: "graduated with CAP of 4.25 / 5.00 and awarded President's Sport Team of the Year and NUS sports team of the year.",
+    cardDetailedText: "Graduated with CAP of 4.25 / 5.00 and was awarded President's Sport Team of the Year and NUS Sports Team of the Year.",
   },
   {
     cardTitle: 'Dymon Asia, Data Intelligence Internship',
@@ -63,7 +63,7 @@ export const backgrounds = [
     cardDetailedText: "Automated the infrastructure of data intelligence risk reports which reduced the amount of time needed for portfolio managers to analyze the current positions held.",
   },
   {
-    cardTitle: 'Master Degree in Financial Engineering',
+    cardTitle: `Master's Degree in Financial Engineering`,
     cardSubtitle:
       "Graduated with a master's degree from Nanyang Technological University and certificate in Computational Finance from Carnegie Mellon University",
     title: "May 2021",
