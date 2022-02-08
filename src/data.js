@@ -24,14 +24,14 @@ export const projects = [
     link: "https://github.com/alanriya/airflowPipeline",
   },
 
-  {
-    title: "Market Data Backtester Library",
-    subtitle: "python 3.9",
-    description:
-      "A backtesting engine that allows users to define rules or entered machine learning models for entering he trade and see the performance matrix over the defined time period. For reusability purpose, several task like performance matrix, lot sizing and allocation are generalised into library. This will serve as the backbone when doing any kind of analysis from which any instrument will run through this framework for profitability analysis.",
-    image: "./project-3.gif",
-    link: "https://github.com/alanriya",
-  },
+  // {
+  //   title: "Market Data Backtester Library",
+  //   subtitle: "python 3.9",
+  //   description:
+  //     "A backtesting engine that allows users to define rules or entered machine learning models for entering he trade and see the performance matrix over the defined time period. For reusability purpose, several task like performance matrix, lot sizing and allocation are generalised into library. This will serve as the backbone when doing any kind of analysis from which any instrument will run through this framework for profitability analysis.",
+  //   image: "./project-3.gif",
+  //   link: "https://github.com/alanriya",
+  // },
 ];
 
 export const backgrounds = [
