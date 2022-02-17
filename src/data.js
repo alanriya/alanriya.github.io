@@ -23,15 +23,14 @@ export const projects = [
     image: "./airflow.gif",
     link: "https://github.com/alanriya/airflowPipeline",
   },
-
-  // {
-  //   title: "Market Data Backtester Library",
-  //   subtitle: "python 3.9",
-  //   description:
-  //     "A backtesting engine that allows users to define rules or entered machine learning models for entering he trade and see the performance matrix over the defined time period. For reusability purpose, several task like performance matrix, lot sizing and allocation are generalised into library. This will serve as the backbone when doing any kind of analysis from which any instrument will run through this framework for profitability analysis.",
-  //   image: "./project-3.gif",
-  //   link: "https://github.com/alanriya",
-  // },
+  {
+    title: "Trading Platform",
+    subtitle: "C# .NET 6.0 framework",
+    description:
+      "This is a trading platform set up using C#. it consists of the market data injector, simulated exchange, orderbook, strategy component. The data is first read from the txt file and pass the message down using multicast UDP. The orderbook object will process the message received from the UDP channel and builds the book. The Strategy object is a simple strategy that buys when instrument price is higher than a certain price. When the condition is met, the strategy will place an buy order to the simulated exchange at the best ask price. The exchange will reply with the filled order. At the end of the trading session, the all the position in the strategy will be reversed and the pnl will be computed.",
+    image: "./tradingPlatform.gif",
+    link: "https://github.com/alanriya/TradingPlatformSample",
+  },
 ];
 
 export const backgrounds = [
