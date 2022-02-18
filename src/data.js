@@ -69,7 +69,7 @@ export const backgrounds = [
     cardDetailedText: "Learned various option pricing techniques, time series modelling, stochastic calculus and C++ programming."
   },
   {
-    cardTitle: 'LegendArb Financial Group, Quantitative Analyst',
+    cardTitle: 'LegendArb Financial Group, Quantitative Developer/ Analyst',
     cardSubtitle:
       "Started my first job",
     title: "Feb 2020 - Nov 2021",
