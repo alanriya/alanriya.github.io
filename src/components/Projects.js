@@ -16,7 +16,10 @@ export default function Projects() {
           </p>
           <br/>
           <p>
-            Other than the programming languages, I have some knowledge in workflow engine softwares like Apache Airflow to automate and monitor data pipelines. I am also experienced with using messaging broker platforms like RabbitMQ to set up, publish and consume messages from topic exchanges for different projects.
+            Other than the programming, I have extensive knowledge to scale and deploy data orchestration platform like Apache Airflow to automate and monitor data pipelines through statsd exporter, prometheus and Grafana. I am also experienced with using messaging broker platforms like RabbitMQ to set up, publish and consume messages from topic exchanges for different projects.
+          </p>
+          <p>
+            One of my huge area of interest is in processing big data for quantitative researches, I explore my own projects in the realms of multi-threaded data service applications. I read alot about personal finance and investments ideas.
           </p>
           <br/>
           <p>

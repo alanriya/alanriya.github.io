@@ -80,14 +80,14 @@ export const backgrounds = [
     cardSubtitle:
       "Exploring a career in Big Data Engineering focusing on data orchestration and devops",
     title: "May 2022 - March 2023",
-    cardDetailedText: "Build Big Data Engineering Solution for partnering clients in healthcare industry. Learned alot in the area of Data Orchestration using Apache Airflow, earned my Professional Google Data Engineer Certification.",
+    cardDetailedText: "Built Big Data Engineering Solution for partnering clients in healthcare industry. Learned alot in the area of Data Orchestration using Apache Airflow, earned my Professional Google Data Engineer Certification.",
   },
   {
     cardTitle: 'GIC Pte Ltd, Investment Insights Group - Quantitative Developer',
     cardSubtitle:
       "Working in Systematic Investment Group in GIC",
     title: "March 2023 - Present",
-    cardDetailedText: "Deployed and maintained data orchestration platform in multi-node setup using docker swarm and SIG quantitative research library. Invest alot of effort in the area of big data engineering using Java and learning system programming language Rust.",
+    cardDetailedText: "Deployed and maintained data orchestration platform in multi-node setup using docker swarm and Systematic Investment Group quantitative research library. Invest alot of effort in the area of big data engineering using Java and learning system programming language Rust.",
   },
 
 ];
