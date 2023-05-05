@@ -12,6 +12,9 @@ export default function About() {
             <br className="hidden lg:inline-block" />
           </h1>
           <h3>I seek opportunities in Quantitative Research and Development.</h3>
+          <br/>
+          <h3>What you are seeing is my younger self in Israel, Haifa, Bahá'í Gardens! </h3>
+          
           <p className="mb-8 leading-relaxed">
             
           </p>

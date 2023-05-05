@@ -78,7 +78,7 @@ export const backgrounds = [
   {
     cardTitle: 'Lynx Analytics Pte Ltd, Data Engineer',
     cardSubtitle:
-      "Exploring a career in data orchestration, Big Data Engineering and devops",
+      "Exploring a career in Big Data Engineering focusing on data orchestration and devops",
     title: "May 2022 - March 2023",
     cardDetailedText: "Build Big Data Engineering Solution for partnering clients in healthcare industry. Learned alot in the area of Data Orchestration using Apache Airflow, earned my Professional Google Data Engineer Certification.",
   },
