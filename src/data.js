@@ -75,16 +75,34 @@ export const backgrounds = [
     title: "Feb 2020 - Nov 2021",
     cardDetailedText: "Exposed to multiple areas of a proprietary trading business: database development, infrastructure development, market connectivity, trading alpha research and trading operations.",
   },
+  {
+    cardTitle: 'Lynx Analytics Pte Ltd, Data Engineer',
+    cardSubtitle:
+      "Exploring a career in data orchestration, Big Data Engineering and devops",
+    title: "May 2022 - March 2023",
+    cardDetailedText: "Build Big Data Engineering Solution for partnering clients in healthcare industry. Learned alot in the area of Data Orchestration using Apache Airflow, earned my Professional Google Data Engineer Certification.",
+  },
+  {
+    cardTitle: 'GIC Pte Ltd, Investment Insights Group - Quantitative Developer',
+    cardSubtitle:
+      "Working in Systematic Investment Group in GIC",
+    title: "March 2023 - Present",
+    cardDetailedText: "Deployed and maintained data orchestration platform in multi-node setup using docker swarm and SIG quantitative research library. Invest alot of effort in the area of big data engineering using Java and learning system programming language Rust.",
+  },
+
 ];
 
 export const skills = [
   "Python",
   "C++",
+  "Java for Big Data Processing",
+  "Rust",
   "Excel",
   "Javascipt (React Framework)",
   "Apache AirFlow",
   "Apache Spark (Big Data Analytics)",
+  "Google Cloud Ecosystems",
   "Docker",
-  "RabbitMQ",
-  "C# - still in process of learning"
+  "RabbitMQ", 
+  "Dev Ops and CI/CD on AWS platform"
 ];

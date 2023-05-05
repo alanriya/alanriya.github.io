@@ -10,8 +10,8 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Hi, I'm Alan.
             <br className="hidden lg:inline-block" />
-            I am looking for opportunities in Quantitative Research or Development.
           </h1>
+          <h3>I seek opportunities in Quantitative Research and Development.</h3>
           <p className="mb-8 leading-relaxed">
             
           </p>

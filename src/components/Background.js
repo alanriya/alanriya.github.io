@@ -9,7 +9,7 @@ export default function Background() {
       <div className="container px-5 py-10 mx-auto text-center">
         <UsersIcon className="w-10 inline-block mb-4" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-education mb-12">
-          Timeline About Me
+          A journey to remember
         </h1>
         <div className="flex flex-wrap m-4" style = {{width:"950", height:"950px"}}>
           <Chrono items={backgrounds} mode="VERTICAL_ALTERNATING" useReadMore={false}/>

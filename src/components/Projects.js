@@ -12,7 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            A series of projects that I have built using primarily C++ and Python. I am currently learning C# to upgrade myself.
+            A series of projects that I have built using primarily C++ and Python. I am currently learning Java and Rust for big data processing and system programming.
           </p>
           <br/>
           <p>
