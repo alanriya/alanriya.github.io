@@ -85,7 +85,7 @@ export const backgrounds = [
   {
     cardTitle: 'GIC Pte Ltd, Investment Insights Group - Quantitative Developer',
     cardSubtitle:
-      "Working in Systematic Investment Group in GIC",
+      "Working in Multi-Asset Quantitative Strategy team within GIC",
     title: "March 2023 - Present",
     cardDetailedText: "Deployed and maintained Systematic Investment Group's quantitative research library and  data orchestration platform in multi-node setup using docker swarm. Invest a lot of effort in the area of big data engineering using Java and learning system programming language Rust.",
   },
