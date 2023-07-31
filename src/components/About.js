@@ -29,20 +29,13 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:w-64 lg:h-64 md:w-48 md:h-48 w-40 h-40 rounded-full overflow-hidden">
-          <img
-            className="object-cover object-center w-full h-full"
-            alt="hero"
-            src="./profile.jpg"
-          />
-        </div>
-        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
             src="./profile.jpg"
           />
-        </div> */}
+        </div>
       </div>
     </section>
   );
