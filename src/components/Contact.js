@@ -47,8 +47,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1 text-white">
-                Fernvale Crescent <br/>
-                Singapore 791448
+                SengKang
               </p>
             </div>
             <div className="lg:w-2/3 px-5 mt-4 lg:mt-0">
