@@ -49,7 +49,7 @@ export const backgrounds = [
     cardDetailedText: "Led the research of an algorithm analysing the interpolated and zero-volatility spreads of similar bond groups using Python which was subsequently implemented in the mainframe and improved BondIT's proactive trade call",
   },
   {
-    cardTitle: 'Finally an NUS Grad!',
+    cardTitle: 'Graduated',
     cardSubtitle:
       "Graduated with Bachelors in Chemical Engineering (Honours with Distinction) from National University of Singapore.",
     title: "Jun 2019",
@@ -62,9 +62,9 @@ export const backgrounds = [
     cardDetailedText: "Automated the infrastructure of data intelligence risk reports which reduced the amount of time needed for portfolio managers to analyze the current positions held.",
   },
   {
-    cardTitle: `Master's Degree in Financial Engineering`,
+    cardTitle: `Graduated round 2`,
     cardSubtitle:
-      "Graduated with a master's degree from Nanyang Technological University and certificate in Computational Finance from Carnegie Mellon University",
+      "Graduated with a Financial Engineering master's degree from Nanyang Technological University and certificate in Computational Finance from Carnegie Mellon University",
     title: "May 2021",
     cardDetailedText: "Learned various option pricing techniques, time series modelling, stochastic calculus and C++ programming."
   },
@@ -87,21 +87,19 @@ export const backgrounds = [
     cardSubtitle:
       "Working in Multi-Asset Quantitative Strategy team within GIC",
     title: "March 2023 - Present",
-    cardDetailedText: "Deployed and maintained Systematic Investment Group's quantitative research library and  data orchestration platform in multi-node setup using docker swarm. Invest a lot of effort in the area of big data engineering using Java and learning system programming language Rust.",
+    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm. Invest effort in learning Java focusing in big data processing and engineering. Getting certified in cloud technologies",
   },
 
 ];
 
 export const skills = [
   "Python",
-  "C++",
-  "Java for Big Data Processing",
-  "Rust",
-  "Excel",
+  "Java for Big Data Analytics and Engineering",
+  "Microsoft Excel",
   "Javascipt (React Framework)",
   "Apache AirFlow",
   "Apache Spark (Big Data Analytics)",
-  "Google Cloud Ecosystems",
+  "Google Cloud Ecosystems for Data Engineering",
   "Docker",
   "RabbitMQ", 
   "Dev Ops and CI/CD on AWS platform"
