@@ -35,13 +35,6 @@ export const projects = [
 
 export const backgrounds = [
   {
-    cardTitle: 'Singapore Armed Forces, Detachment Commander',
-    cardSubtitle:
-      "Served my nation for 2 years as an Artillery Commander",
-    title: "May 2013 - March 2015",
-    cardDetailedText: "Led a detachment of 8 soldiers in providing timely artillery fire when called upon.",
-  },
-  {
     cardTitle: 'BondIT Global, Data Analyst Internship',
     cardSubtitle:
       "Embarked on a 6-months internship at a Financial Technology company in Israel.",
@@ -54,12 +47,6 @@ export const backgrounds = [
       "Graduated with Bachelors in Chemical Engineering (Honours with Distinction) from National University of Singapore.",
     title: "Jun 2019",
     cardDetailedText: "Graduated with CAP of 4.25 / 5.00 and was awarded President's Sport Team of the Year and NUS Sports Team of the Year.",
-  },
-  {
-    cardTitle: 'Dymon Asia, Data Intelligence Internship',
-    cardSubtitle: "Started an exciting internship with the largest hedge fund in Singapore.",
-    title: "Aug 2019 - Oct 2019",
-    cardDetailedText: "Automated the infrastructure of data intelligence risk reports which reduced the amount of time needed for portfolio managers to analyze the current positions held.",
   },
   {
     cardTitle: `Graduated round 2`,

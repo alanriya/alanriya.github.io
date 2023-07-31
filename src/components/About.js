@@ -8,13 +8,11 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-            Hi, I'm Alan.
+          Meet Alan
             <br className="hidden lg:inline-block" />
           </h1>
-          <h3>I seek opportunities in Quantitative Research and Development.</h3>
+          <h3>A skilled professional in quantitative development and big data analytics with a remarkable track record. With a triumphant hackathon win in Israel, showcasing unmatched expertise in multi-classification machine learning algorithms. Specialized in Python and Java, crafting cutting-edge solutions, and pursuing AWS DevOps Professional Engineer certification, Alan is well-equipped to revolutionize your big data analytics endeavors. With an adaptive and collaborative mindset, Alan is set to unleash the full potential of your company's data, driving innovation and paving the way for unparalleled achievements.</h3>
           <br/>
-          <h3>What you are seeing is my younger self in Israel, Haifa, Bahá'í Gardens! </h3>
-          
           <p className="mb-8 leading-relaxed">
             
           </p>
