@@ -29,7 +29,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:w-32 lg:h-32 md:w-24 md:h-24 w-20 h-20 rounded-full overflow-hidden">
+        <div className="lg:w-64 lg:h-64 md:w-48 md:h-48 w-40 h-40 rounded-full overflow-hidden">
           <img
             className="object-cover object-center w-full h-full"
             alt="hero"
