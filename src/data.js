@@ -74,7 +74,7 @@ export const backgrounds = [
     cardSubtitle:
       "Working in Multi-Asset Quantitative Strategy team within GIC",
     title: "March 2023 - Present",
-    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm and MWAA setup. Set up CICD workflow with Github actions. Earned AWS DevOps and AWS Solution Architect, implemented in-depth on data processing model like lambda architecture",
+    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm and MWAA setup. Set up CICD workflow with Github actions. Earned AWS DevOps, implemented in-depth on data processing model like lambda architecture",
   },
 
 ];
@@ -91,7 +91,7 @@ export const skills = [
   "Google Cloud Ecosystems for distributed processing",
   "Docker, Docker Swarm, Kubernetes Basics",
   "RabbitMQ/ Apache Kafka", 
-  "CI/CD on AWS platform", 
+  "AWS CI/CD",
   "GitHub Actions for CI/CD",
   "Microsoft Excel",
 ];
