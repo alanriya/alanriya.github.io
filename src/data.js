@@ -88,7 +88,7 @@ export const skills = [
   "Enterprise Monitoring: Datadog Integration",
   "Data Orchestration: Apache AirFlow",
   "Apache Spark (Big Data Analytics)",
-  "Google Cloud Ecosystems for distributed processing",
+  "GCP and AWS for distributed elastic computing orchestration",
   "Docker, Docker Swarm, Kubernetes Basics",
   "RabbitMQ/ Apache Kafka", 
   "AWS CI/CD",
