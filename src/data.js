@@ -67,14 +67,14 @@ export const backgrounds = [
     cardSubtitle:
       "Exploring a career in Big Data Engineering focusing on data orchestration and devops",
     title: "May 2022 - March 2023",
-    cardDetailedText: "Built Big Data Engineering solutions for partnering clients in the healthcare industry. Learned a lot in the area of Data Orchestration using Apache Airflow, and earned my Professional Google Data Engineer Certification.",
+    cardDetailedText: "Built Big Data Engineering solutions for partnering clients in the healthcare industry. Learned a lot in the area of Data Orchestration using Apache Airflow, and received my Professional Google Data Engineer Certification.",
   },
   {
-    cardTitle: 'GIC Pte Ltd, Investment Insights Group - Quantitative Developer',
+    cardTitle: 'GIC Pte Ltd, Investment Insights Group - Core Strategist, Quantitative Developer',
     cardSubtitle:
       "Working in Multi-Asset Quantitative Strategy team within GIC",
     title: "March 2023 - Present",
-    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm. Invest effort in learning Java focusing in big data processing and engineering. Getting certified in cloud technologies",
+    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm and MWAA setup. Set up CICD workflow with Github actions. Earned AWS DevOps and AWS Solution Architect, implemented in-depth on data processing model like lambda architecture",
   },
 
 ];
@@ -82,12 +82,16 @@ export const backgrounds = [
 export const skills = [
   "Python",
   "Java for Big Data Analytics and Engineering",
-  "Microsoft Excel",
   "Javascipt (React Framework)",
-  "Apache AirFlow",
+  "Structured Database: PostgreSQL, TimescaleDB",
+  "Unstructured Database: Cassandra DB", 
+  "Enterprise Monitoring: Datadog Integration",
+  "Data Orchestration: Apache AirFlow",
   "Apache Spark (Big Data Analytics)",
-  "Google Cloud Ecosystems for Data Engineering",
-  "Docker",
-  "RabbitMQ", 
-  "Dev Ops and CI/CD on AWS platform"
+  "Google Cloud Ecosystems for distributed processing",
+  "Docker, Docker Swarm, Kubernetes Basics",
+  "RabbitMQ/ Apache Kafka", 
+  "CI/CD on AWS platform", 
+  "GitHub Actions for CI/CD",
+  "Microsoft Excel",
 ];
