@@ -42,7 +42,7 @@ export const backgrounds = [
     cardDetailedText: "Led the research of an algorithm analysing the interpolated and zero-volatility spreads of similar bond groups using Python which was subsequently implemented in the mainframe and improved BondIT's proactive trade call",
   },
   {
-    cardTitle: 'Graduated',
+    cardTitle: 'Bachelors in Engineering',
     cardSubtitle:
       "Graduated with Bachelors in Chemical Engineering (Honours with Distinction) from National University of Singapore.",
     title: "Jun 2019",
