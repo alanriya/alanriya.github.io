@@ -49,7 +49,7 @@ export const backgrounds = [
     cardDetailedText: "Graduated with CAP of 4.25 / 5.00 and was awarded President's Sport Team of the Year and NUS Sports Team of the Year.",
   },
   {
-    cardTitle: `Graduated round 2`,
+    cardTitle: `Post Graduate Degree`,
     cardSubtitle:
       "Graduated with a Financial Engineering master's degree from Nanyang Technological University and certificate in Computational Finance from Carnegie Mellon University",
     title: "May 2021",
@@ -58,7 +58,7 @@ export const backgrounds = [
   {
     cardTitle: 'LegendArb Financial Group, Quantitative Developer/ Analyst',
     cardSubtitle:
-      "Started my first job",
+      "Exposure to small proprietary trading shop",
     title: "Feb 2020 - Nov 2021",
     cardDetailedText: "Exposed to multiple areas of a proprietary trading business: database development, infrastructure development, market connectivity, trading alpha research and trading operations.",
   },
