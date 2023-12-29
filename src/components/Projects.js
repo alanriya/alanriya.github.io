@@ -12,15 +12,15 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          A series of projects that I have built using primarily C++ and Python. I am currently exploring Java and Rust for big data processing and system programming. Learning how to build and deploy APIs and data things.
+          A series of projects that I have built using primarily Python and Java. I am currently exploring Java for big data processing and system programming. Learning how to build and deploy APIs, data architectures and frontend UI.
           </p>
           <br/>
           <p>
-          Other than programming, I have extensive knowledge to scale and deploy data orchestration platforms like Apache Airflow to automate and monitor data pipelines through Statsd Exporter, Prometheus, and Grafana. I am also experienced with using messaging broker platforms like RabbitMQ and Google PubSub to set up, publish and consume messages from topic exchanges.
+          Other than programming, I have extensive knowledge to scale and deploy data orchestration platforms like Apache Airflow to automate and monitor data pipelines through Statsd Exporter, Prometheus, and Grafana. I am also experienced with using messaging broker platforms like RabbitMQ and Google PubSub to publish, consume and process live messages.
           </p>
           <br/>
           <p>
-          One of my areas of interest is in processing big data for quantitative research, I explore my projects in the realms of multi-threaded data service applications. I read a lot about personal finance and investment ideas.
+          One of my areas of interest is in processing big data for quantitative analytics, I explore alot in data processing applications as well as the latest analytic models. I read a lot about personal finance and investment ideas.
           </p>
           <br/>
           <p>
