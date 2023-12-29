@@ -11,7 +11,7 @@ export default function About() {
           Meet Alan
             <br className="hidden lg:inline-block" />
           </h1>
-          <h3>Alan is a quantitative development and big data analytics professional with a background in Financial Engineering. As a certified Google Professiona Data Engineer and AWS DevOps professional, he specializes in Python and Java, crafting cutting-edge data infrastructure solutions. His triumph in an Israeli hackathon showcased his data science expertise in implementing multi-classification machine learning algorithms. With an adaptive and collaborative mindset, he's poised to revolutionize big data analytics endeavors and driving innovation within organizations.</h3>
+          <h3>Alan is a quantitative development and big data analytics professional with a background in Financial Engineering. As a certified Google Professional Data Engineer and AWS DevOps professional, he specializes in Python and Java, crafting cutting-edge data infrastructure solutions. His triumph in an Israeli hackathon showcased his data science expertise in implementing multi-classification machine learning algorithms. With an adaptive and collaborative mindset, he's poised to revolutionize big data analytics endeavors and driving innovation within organizations.</h3>
           <br/>
           <p className="mb-8 leading-relaxed">
             
