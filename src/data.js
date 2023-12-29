@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Python Algorithm Console Application",
     description:
       "This is a basic big data project to build an efficient search engine that performs search on Wikipedia pages. This projects creates inverted index creation and query search mechanism. After creating the index, user may enter search term and the console application shall return the list of most relevant pages pertaining to the search. The data is found on: https://dumps.wikimedia.org/enwiki/20230920/",
-    image: "./tradingPlatform.gif",
+    image: "./searchEngine.gif",
     link: "https://github.com/alanriya/symmetrical-search",
   },
   {
