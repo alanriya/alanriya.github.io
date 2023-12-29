@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Search Engine with Term Frequency - Inverse Document Frequency (TF-IDF) score",
+    subtitle: "Python Algorithm Console Application",
+    description:
+      "This is a basic big data project to build an efficient search engine that performs search on Wikipedia pages. This projects creates inverted index creation and query search mechanism. After creating the index, user may enter search term and the console application shall return the list of most relevant pages pertaining to the search. The data is found on: https://dumps.wikimedia.org/enwiki/20230920/",
+    image: "./tradingPlatform.gif",
+    link: "https://github.com/alanriya/symmetrical-search",
+  },
+  {
+    title: "Project Blaze",
+    subtitle: "Big Data Architecture: Lambda Data Processing Model",
+    description:
+      "As a seasoned developer, I design and executed of a cutting-edge Lambda data processing architecture, seamlessly integrating real-time stream processing with a parallel batch layer. Leveraging  Apache Kafka, Apache Spark, Apache Airflow and Apache Flink with Timescale Database as a robust time series database, I ensured robustness in handling high volumes of data while maintaining fault tolerance and scalability. The architecture delivered enhanced efficiency, minimized downtime, and optimized costs, showcasing my expertise in architecting Lambda solutions with a keen focus on performance, reliability, and strategic optimization.",
+    image: "./blaze-project.png",
+    link: "https://github.com/alanriya/turbo-waddle",
+  },
+  {
     title: "Derivative Pricer",
     subtitle: "C++ and Qt6 Framework",
     description:
@@ -28,9 +44,9 @@ export const projects = [
     subtitle: "C# .NET 6.0 framework",
     description:
       "This is a trading platform set up using C#. it consists of the market data injector, simulated exchange, orderbook, strategy component. The data is first read from the txt file and pass the message down using multicast UDP. The orderbook object will process the message received from the UDP channel and builds the book. The Strategy object is a simple strategy that buys when instrument price is higher than a certain price. When the condition is met, the strategy will place an buy order to the simulated exchange at the best ask price. The exchange will reply with the filled order. At the end of the trading session, the all the position in the strategy will be reversed and the pnl will be computed.",
-    image: "./tradingPlatform.gif",
+    image: "./searchEngine.gif",
     link: "https://github.com/alanriya/TradingPlatformSample",
-  },
+  }
 ];
 
 export const backgrounds = [
