@@ -3,7 +3,7 @@ export const projects = [
     title: "High Availability Airflow",
     subtitle: "Dual Airflow Scheduler running on Docker Swarm",
     description:
-      "This is a development and DevOps projects to put applications up live with self-healing properties of docker-compose",
+      "This project demonstrates my proficiency in building a robust data pipeline orchestration system, underscoring my strong grasp of DevOps principles. By leveraging Docker Swarm for container orchestration, I showcase my expertise in creating scalable and efficient infrastructure solutions. Implementing dual Airflow schedulers reflects my strategic thinking, ensuring continuous workflow execution and highlighting my commitment to building reliable and resilient systems.",
     image: "./ha-airflow-swarm.png",
     link: "https://github.com/alanriya/bug-free-octo-potato",
   },
