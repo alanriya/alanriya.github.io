@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "High Availability Airflow",
+    subtitle: "Dual Airflow Scheduler running on Docker Swarm",
+    description:
+      "This is a development and DevOps projects to put applications up live with self-healing properties of docker-compose",
+    image: "./ha-airflow-swarm.png",
+    link: "https://github.com/alanriya/bug-free-octo-potato",
+  },
+  {
     title: "Search Engine with Term Frequency - Inverse Document Frequency (TF-IDF) score",
     subtitle: "Python Algorithm Console Application",
     description:
