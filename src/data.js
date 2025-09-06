@@ -70,7 +70,7 @@ export const backgrounds = [
     cardSubtitle:
       "Graduated with Bachelors in Chemical Engineering (Honours with Distinction) from National University of Singapore.",
     title: "Jun 2019",
-    cardDetailedText: "Graduated with CAP of 4.25 / 5.00 and was awarded President's Sport Team of the Year and NUS Sports Team of the Year.",
+    cardDetailedText: "Graduated with Honours with Distinction and was awarded President's Sport Team of the Year and NUS Sports Team of the Year.",
   },
   {
     cardTitle: `Post Graduate Degree`,
@@ -94,11 +94,11 @@ export const backgrounds = [
     cardDetailedText: "Built Big Data Engineering solutions for partnering clients in the healthcare industry. Learned a lot in the area of Data Orchestration using Apache Airflow, and received my Professional Google Data Engineer Certification.",
   },
   {
-    cardTitle: 'GIC Pte Ltd, Investment Insights Group - Core Strategist, Quantitative Developer',
+    cardTitle: 'GIC Pte Ltd, Investment Insights Group - Software Engineer',
     cardSubtitle:
-      "Working in Multi-Asset Quantitative Strategy team within GIC",
+      "GIC Business Partners Solutions (BPS) Front Office is a team within GIC that provides technology solutions to the investment teams within GIC. The Investment Insights Group (IIG) is a team within GBPS that focuses on data engineering and data science solutions for the investment teams.",
     title: "March 2023 - Present",
-    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm and MWAA setup. Set up CICD workflow with Github actions. Earned AWS DevOps, implemented in-depth on data processing model like lambda architecture",
+    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm and MWAA setup. Set up CICD workflow with Github actions. Uplifted Quantitative research platform, quant model production orchestration platform and quantitative applications like Axioma, Model Management to new platforms like EKS. Earned AWS DevOps, implemented in-depth on data processing model like lambda architecture",
   },
 
 ];
@@ -118,4 +118,6 @@ export const skills = [
   "AWS CI/CD",
   "GitHub Actions for CI/CD",
   "Microsoft Excel",
+  "Terraform",
+  "Kubernetes"
 ];
