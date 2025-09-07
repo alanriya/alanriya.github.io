@@ -8,10 +8,10 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-          Meet Alan
+            Institutionalised Research. Reliability for Mission-Critical Systems.
             <br className="hidden lg:inline-block" />
           </h1>
-          <h3>Alan is a quantitative development and big data analytics professional with a background in Financial Engineering. As a certified Google Professional Data Engineer and AWS DevOps professional, he specializes in Python and Java, crafting cutting-edge data infrastructure solutions. His triumph in an Israeli hackathon showcased his data science expertise in implementing multi-classification machine learning algorithms. With an adaptive and collaborative mindset, he's poised to revolutionize big data analytics endeavors and driving innovation within organizations.</h3>
+          <h3>I build the plumbing for small, fast teams: reproducible backtests, point-in-time datasets, and safe notebook-to-production handoffs. Focus areas: market-data engineering, CI/CD, and observability. Python/Java, Airflow, Kafka/Spark, Postgres/TimescaleDB, Docker, AWS/GCP. Financial Engineering background. Google PDE & AWS DevOps.</h3>
           <br/>
           <p className="mb-8 leading-relaxed">
             

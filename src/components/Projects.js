@@ -12,15 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          A series of projects that I have built using primarily Python and Java. I am currently exploring Java for big data processing and system programming. Learning how to build and deploy APIs, data architectures and frontend UI.
-          </p>
-          <br/>
-          <p>
-          Other than programming, I have extensive knowledge to scale and deploy data orchestration platforms like Apache Airflow to automate and monitor data pipelines through Statsd Exporter, Prometheus, and Grafana. I am also experienced with using messaging broker platforms like RabbitMQ and Google PubSub to publish, consume and process live messages.
-          </p>
-          <br/>
-          <p>
-          One of my areas of interest is in processing big data for quantitative analytics, I explore alot in data processing applications as well as the latest analytic models. I read a lot about personal finance and investment ideas.
+          I build quantitative research platforms and trading execution engine in Python. At GIC, I implemented multi-node data orchestration for production—Docker/MWAA, CI/CD, and HA Airflow pipelines with observability (StatsD → Prometheus/Grafana/Datadog)—to keep infrastructure and workflows reliable. At LegendArb, I developed a risk-monitoring and real-time P&L system in a nimble team setup. I’ve moved analysis from notebooks into production APIs and scheduled jobs with reproducible datasets, tests, and containerised deploys with simple runbooks. Some repositories are private—I can walk through designs. Additional quant projects will be added here as they complete.
           </p>
           <br/>
           <p>
