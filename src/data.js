@@ -106,7 +106,7 @@ export const backgrounds = [
     cardSubtitle:
       "GIC Business Partners Solutions (BPS) Front Office is a team within GIC that provides technology solutions to the investment teams within GIC. The Investment Insights Group (IIG) is a team within GBPS that focuses on data engineering and data science solutions for the investment teams.",
     title: "March 2023 - Present",
-    cardDetailedText: "Deployed and maintained MAQS's quantitative research library and data orchestration platform in multi-node setup using docker swarm and MWAA setup. Set up CICD workflow with Github actions. Uplifted Quantitative research platform, quant model production orchestration platform and quantitative applications like Axioma, Model Management to new platforms like EKS. Earned AWS DevOps, implemented in-depth on data processing model like lambda architecture",
+    cardDetailedText: "I maintained the quant research library and multi-node orchestration (Docker + MWAA), added CI/CD with GitHub Actions, and established model production practices (versioned packages, scheduled pipelines, controlled rollbacks). I migrated the platform and key quant apps (Axioma, model-management for quant model weights hamonization) to EKS for a consistent deploy surface. AWS DevOps certified.",
   },
 
 ];
