@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Terraform on Kind Cluster on local laptop",
+    subtitle: "Deploying Application on Kubernetes using Terraform",
+    description:
+      "This project showcases my ability to deploy applications on a local Kubernetes cluster using Terraform. It involves setting up a Kind cluster and configuring the necessary resources to ensure smooth image building, deployment and management of containerized applications.",
+    image: "./kind-terraform-infra.png",
+    link: "https://github.com/alanriya/terraform-kind-playground",
+  },
+  {
     title: "High Availability Airflow",
     subtitle: "Dual Airflow Scheduler running on Docker Swarm",
     description:
