@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Spark-Hadoop Prescriber Analytics Pipeline",
+    subtitle: "A project on self-hosted Hadoop, Yarn, Spark Cluster with Hive and metadata in postgres",
+    description:
+      "This project showcases a full data engineering pipeline implemented on a local single-node cluster using Windows Subsystem for Linux (WSL). It includes the setup of Hadoop (HDFS) and Spark (YARN), ingestion and processing of real-world healthcare data, execution of distributed Spark jobs managed by YARN, and the generation of business intelligence reports.",
+    image: "./hadoop-yarn-spark.png",
+    link: "https://github.com/alanriya/spark-pipeline",
+  },
+  {
     title: "Terraform on Kind Cluster on local laptop",
     subtitle: "Deploying Application on Kubernetes using Terraform",
     description:
