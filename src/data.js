@@ -120,24 +120,30 @@ export const backgrounds = [
 ];
 
  export const skills = [
-  "Programming Language : Python",
-  "Programming Language : Java for Big Data Analytics and Engineering",
-  "Programming Language : C# - Web API",
+  // Programming Languages
+  "Programming Language : Python for Quantitative Research and Data Engineering",
+  "Programming Language : Java for Big Data Analytics",
+  "Programming Language : Basic Javascripts for this website",
+  "Programming Language : R for Statistical Analysis",
+  "Scripting Language : Bash Scripting for Automation",
 
-  "Data Engineering & Orchestration : Structured Database: PostgreSQL, TimescaleDB",
-  "Data Engineering & Orchestration : Data Orchestration: Apache AirFlow",
-  "Data Engineering & Orchestration : Apache Spark (Big Data Analytics)",
+  // Data Engineering & Orchestration
+  "Data Engineering & Orchestration : Structured Databases - PostgreSQL, TimescaleDB",
+  "Data Engineering & Orchestration : Apache Spark",
+  "Data Engineering & Orchestration : Apache AirFlow",
   "Data Engineering & Orchestration : RabbitMQ/ Apache Kafka",
 
-  "Cloud & Distributed Computing : GCP and AWS for distributed elastic computing orchestration",
+  // Cloud & Distributed Computing
+  "Cloud & Distributed Computing : AWS Cloud Services",
+  "Cloud & Distributed Computing : Google Cloud Platform (GCP)",
 
+  // DevOps & Deployment
   "DevOps & Deployment : Docker, Docker Swarm, Kubernetes Basics",
   "DevOps & Deployment : Kubernetes",
+  "DevOps & Deployment : Terraform",
   "DevOps & Deployment : AWS CI/CD",
   "DevOps & Deployment : GitHub Actions for CI/CD",
-  "DevOps & Deployment : Terraform",
 
-  "Site Reliability & Monitoring : Enterprise Monitoring: Datadog Integration",
-
-  "Other : Microsoft Excel"
+  // Site Reliability & Monitoring
+  "Site Reliability & Monitoring : Datadog"
 ];
