@@ -8,10 +8,10 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-            Institutionalised Research. Reliability for Mission-Critical Systems.
+            Software Engineer for quantitative data. Reliability for mission-critical systems.
             <br className="hidden lg:inline-block" />
           </h1>
-          <h3>I build the plumbing for small, fast teams: reproducible backtests, point-in-time datasets, and safe notebook-to-production handoffs. Focus areas: market-data engineering, CI/CD, and observability. Python/Java, Airflow, Kafka/Spark, Postgres/TimescaleDB, Docker, AWS/GCP. Financial Engineering background. Google PDE & AWS DevOps.</h3>
+          <h3>I build the plumbing for small nimble teams: reproducible backtests, point-in-time datasets, and safe notebook-to-production handoffs. Focus areas: market-data engineering, CI/CD, and observability. Python/Java, Airflow, Kafka/Spark, Postgres/TimescaleDB, Docker, AWS/GCP. Financial Engineering background. Google Professional Data Engineer & AWS DevOps Professional Engineer.</h3>
           <br/>
           <p className="mb-8 leading-relaxed">
             
@@ -29,10 +29,9 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:w-1/6 md:w-1/6 w-5/6">
           <img
             className="object-cover object-center rounded"
-            alt="hero"
             src="./profile.jpg"
           />
         </div>

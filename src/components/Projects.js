@@ -12,7 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          I build quantitative research platforms and trading execution engine in Python. At GIC, I implemented multi-node data orchestration for production—Docker/MWAA, CI/CD, and HA Airflow pipelines with observability (StatsD → Prometheus/Grafana/Datadog)—to keep infrastructure and workflows reliable. At LegendArb, I developed a risk-monitoring and real-time P&L system in a nimble team setup. I’ve moved analysis from notebooks into production APIs and scheduled jobs with reproducible datasets, tests, and containerised deploys with simple runbooks. Some repositories are private—I can walk through designs. Additional quant projects will be added here as they complete.
+          I build quantitative research platforms and trading execution engine in Python. At GIC, I implemented multi-node data orchestration for production—Docker/MWAA, CI/CD, and High Availability Airflow pipelines with observability (StatsD → Prometheus/Grafana/Datadog)—to keep infrastructure and workflows reliable. At LegendArb, I developed a risk-monitoring and real-time P&L system in a nimble team setup. I’ve moved analysis from notebooks into production APIs and scheduled jobs with reproducible datasets, tests, and containerised deploys with simple runbooks. Some repositories are private—I can walk through designs. Additional quant projects will be added here as they complete.
           </p>
           <br/>
           <p>
