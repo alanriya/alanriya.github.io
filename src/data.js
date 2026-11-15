@@ -1,149 +1,195 @@
+// All site content lives here. Edit this file to update the website.
+
+export const profile = {
+  name: "Alan Lee",
+  role: "Quantitative Developer",
+  headline: "I build the data and infrastructure that takes quantitative research into production.",
+  summary:
+    "Quantitative developer at GIC working on point-in-time data platforms, continuous derivative price series and production quant libraries. Previously systematic trading infrastructure at LegendArb. MSc Financial Engineering.",
+  location: "Singapore",
+  email: "alan.leeyungchong@gmail.com",
+  emailSubject: "Hello Alan",
+  github: "https://github.com/alanriya",
+  linkedin: "https://www.linkedin.com/in/alanleeyc/",
+  photo: "/images/profile.jpg",
+  facts: [
+    { label: "Currently", value: "Quantitative Developer, AVP, GIC" },
+    { label: "CFA Program", value: "Level 1 passed, Level 2 candidate" },
+    { label: "Masters", value: "MSc Financial Engineering, NTU" },
+    { label: "Undergraduate", value: "BSc Chemical Engineering, NUS" },
+    { label: "Data Science", value: "Micro Degree in Data Science, Udacity" },
+    { label: "Cloud Certificates", value: "GCP Data Engineer, AWS DevOps Pro" },
+    { label: "Experience", value: "Systematic trading, Quant Research Infrastructure and data engineering" },
+    { label: "Interest", value: "Running, Horology"}
+  ]
+};
+
+// Newest first. Add a new job by copying a block to the top of the list.
+export const experience = [
+  {
+    company: "GIC",
+    role: "Quantitative Developer, Assistant Vice President",
+    period: "Mar 2023 – Present",
+    location: "Singapore",
+    bullets: [
+      "Quant platform modernisation: co-leading the move from EC2-based Airflow to a Databricks Delta Lake architecture, built for distributed processing while keeping point-in-time (PIT) auditability for backtesting.",
+      "Macro asset returns: built continuous, jump-free derivative price series using GSCI methodology, plus a Databricks ingestion pipeline that proxies non-tradable instruments with PIT accuracy.",
+      "Cloud migration: moved quant-critical apps (Axioma and Mosek optimisation services, Model Management) from EC2 to Kubernetes (EKS) with Datadog and Splunk observability, API Gateway authentication and blue-green production deployment.",
+      "Quant library: standardised production testing and CI/CD, cutting model-to-production latency for Portfolio Managers.",
+      "Researcher toolkit: built a self-service environment so quant researchers can take models from research to production with minimal developer involvement.",
+    ],
+  },
+  {
+    company: "Lynx Analytics",
+    role: "Data Engineer",
+    period: "May 2022 – Feb 2023",
+    location: "Singapore",
+    bullets: [
+      "Engineered ETL/ELT pipelines with Apache Airflow on AWS for large-scale data ingestion in digital transformation projects.",
+      "Optimised data storage and retrieval for reliability and performance for downstream analytics teams.",
+    ],
+  },
+  {
+    company: "LegendArb Financial Group",
+    role: "Quantitative Analyst",
+    period: "Feb 2020 – Nov 2021",
+    location: "Singapore",
+    bullets: [
+      "Designed and deployed an internal TimescaleDB market database consolidating TSE, OSE and TAIFEX equity index futures feeds for strategy development.",
+      "Developed a real-time risk and P&L monitoring system in React to track positions, automate broker reconciliation and support hedging.",
+      "Built auction-phase order book analytics on Tokyo Stock Exchange Flex-Full data: detecting Funari orders and computing indicative closing prices.",
+      "Applied Vector Auto-Regressive (VAR) models to market volume impact, generating automated execution recommendations for traders.",
+    ],
+  },
+];
+
+export const education = [
+  {
+    school: "Nanyang Technological University, with Tepper School of Business, Carnegie Mellon University",
+    degree: "MSc Financial Engineering, Certificate in Computational Finance",
+    period: "2019 – 2020",
+    note: "Option pricing, time series modelling, stochastic calculus.",
+  },
+  {
+    school: "National University of Singapore",
+    degree: "BEng Chemical Engineering, Honours with Distinction",
+    period: "2015 – 2019",
+    note: "President's Sport Team of the Year; NUS Sports Team of the Year.",
+  },
+  {
+    school: "Tel Aviv University",
+    degree: "Entrepreneurship Studies",
+    period: "",
+    note: "IoT Hackathon 2018 (Ben Gurion University): 1st runner-up.",
+  },
+];
+
 export const projects = [
   {
-    title: "Spark-Hadoop Prescriber Analytics Pipeline",
-    subtitle: "A project on self-hosted Hadoop, Yarn, Spark Cluster with Hive and metadata in postgres",
-    description:
-      "This project showcases a full data engineering pipeline implemented on a local single-node cluster using Windows Subsystem for Linux (WSL). It includes the setup of Hadoop (HDFS) and Spark (YARN), ingestion and processing of real-world healthcare data, execution of distributed Spark jobs managed by YARN, and the generation of business intelligence reports.",
-    image: "./hadoop-yarn-spark.png",
-    link: "https://github.com/alanriya/spark-pipeline",
-  },
-  {
-    title: "Terraform on Kind Cluster on local laptop",
-    subtitle: "Deploying Application on Kubernetes using Terraform",
-    description:
-      "This project showcases my ability to deploy applications on a local Kubernetes cluster using Terraform. It involves setting up a Kind cluster and configuring the necessary resources to ensure smooth image building, deployment and management of containerized applications.",
-    image: "./kind-terraform-infra.png",
-    link: "https://github.com/alanriya/terraform-kind-playground",
-  },
-  {
-    title: "High Availability Airflow",
-    subtitle: "Dual Airflow Scheduler running on Docker Swarm",
-    description:
-      "This project demonstrates my proficiency in building a robust data pipeline orchestration system, underscoring my strong grasp of DevOps principles. By leveraging Docker Swarm for container orchestration, I showcase my expertise in creating scalable and efficient infrastructure solutions. Implementing dual Airflow schedulers reflects my strategic thinking, ensuring continuous workflow execution and highlighting my commitment to building reliable and resilient systems.",
-    image: "./ha-airflow-swarm.png",
-    link: "https://github.com/alanriya/bug-free-octo-potato",
-  },
-  {
-    title: "Search Engine with Term Frequency - Inverse Document Frequency (TF-IDF) score",
-    subtitle: "Python Algorithm Console Application",
-    description:
-      "This is a basic big data project to build an efficient search engine that performs search on Wikipedia pages. This projects creates inverted index creation and query search mechanism. After creating the index, user may enter search term and the console application shall return the list of most relevant pages pertaining to the search. The data is found on: https://dumps.wikimedia.org/enwiki/20230920/",
-    image: "./searchEngine.gif",
-    link: "https://github.com/alanriya/symmetrical-search",
+    title: "Derivative Pricer",
+    summary:
+      "C++/Qt6 app pricing vanilla, exotic and American options with Monte Carlo and risk-neutral binary trees. Extensible through abstract payoff classes.",
+    tags: ["C++", "Qt6", "Monte Carlo"],
+    image: "/images/projects/derivative-pricer.gif",
+    link: "https://github.com/alanriya/OptionPricer",
   },
   {
     title: "Project Blaze",
-    subtitle: "Big Data Architecture: Lambda Data Processing Model",
-    description:
-      "As a seasoned developer, I design and executed of a cutting-edge Lambda data processing architecture, seamlessly integrating real-time stream processing with a parallel batch layer. Leveraging  Apache Kafka, Apache Spark, Apache Airflow and Apache Flink with Timescale Database as a robust time series database, I ensured robustness in handling high volumes of data while maintaining fault tolerance and scalability. The architecture delivered enhanced efficiency, minimized downtime, and optimized costs, showcasing my expertise in architecting Lambda solutions with a keen focus on performance, reliability, and strategic optimization.",
-    image: "./blaze-project.png",
+    summary:
+      "Lambda architecture combining real-time stream processing with a parallel batch layer, backed by a time series database.",
+    tags: ["Kafka", "Spark", "Flink", "Airflow", "TimescaleDB"],
+    image: "/images/projects/project-blaze.png",
     link: "https://github.com/alanriya/turbo-waddle",
   },
   {
-    title: "Derivative Pricer",
-    subtitle: "C++ and Qt6 Framework",
-    description:
-      "Interface using C++ Qt6 framework to compute various derivative's arbitrage-free price using Monte Carlos simulation for Vanilla and Exotic Option and risk-neutral Binary Tree Pricing for American Option. The project focuses on good programming practises such as packaging reusable components like generation of random numbers and parameters integral. Abstract classes have been created to allow easy extension to other options if its payoff may be define. Vanilla Options, Simple Exotic Option and American Options can be valued.",
-    image: "./optionPricer.gif",
-    link: "https://github.com/alanriya/OptionPricer", 
+    title: "Trading Platform",
+    summary:
+      "Market data injector over multicast UDP, simulated exchange, order book and a simple strategy that trades and reports end-of-day P&L.",
+    tags: ["C#", ".NET 6", "UDP"],
+    image: "/images/projects/trading-platform.gif",
+    link: "https://github.com/alanriya/TradingPlatformSample",
   },
   {
     title: "Market Data DartBoard",
-    subtitle: "Python 3.9 and RabbitMQ",
-    description:
-      "This project simulates the how market data flows from exchange to the client. A server will read a dummmy file that contains market data in their native protocol and sends it through a TCP connection through RabbitMQ 's topic exchange. Another client application will receive the data and trys to build the book, the book state is then published over the another TCP connection to any client subscribing to the market data to display a dart board. This project still lacks a frontend UI that is fast enough to handle large volume of data and rendering them at the same time.",
-    image: "./marketParser.gif",
+    summary:
+      "Simulates exchange-to-client market data flow: native-protocol feed over RabbitMQ, order book reconstruction, and book state published to subscribers.",
+    tags: ["Python", "RabbitMQ", "TCP"],
+    image: "/images/projects/market-data-dartboard.gif",
     link: "https://github.com/alanriya/dataTransfer",
   },
   {
-    title: "Data Engineering Pipeline using Docker and Airflow",
-    subtitle: "Python 3.9, Airflow 2.2.3 , Docker 19.3",
-    description:
-      "A big part as a developer or researcher is collecting data for downstream users or this is a mock project that offers a platform to easily create automated task and schedule it for run at regular time or time intervals. A big part of being productive is to use airflow to orchestrate repetitive but time consuming jobs. This project is an example of a complete pipeline that allows one to schedule for various tasks like checking if API is available, downloading data, inserting data into local database. The airflow also provides email and slack messaging capability to send message when some of the tasks went wrong. I have only set up the email capability for now.",
-    image: "./airflow.gif",
+    title: "High Availability Airflow",
+    summary:
+      "Dual Airflow schedulers on Docker Swarm so workflows keep running through node failure.",
+    tags: ["Airflow", "Docker Swarm"],
+    image: "/images/projects/high-availability-airflow.png",
+    link: "https://github.com/alanriya/bug-free-octo-potato",
+  },
+  {
+    title: "Spark-Hadoop Prescriber Analytics",
+    summary:
+      "End-to-end data pipeline on a self-hosted Hadoop/YARN/Spark cluster with Hive and Postgres metadata, producing BI reports from healthcare data.",
+    tags: ["Spark", "Hadoop", "Hive", "Postgres"],
+    image: "/images/projects/spark-hadoop-prescriber-analytics.png",
+    link: "https://github.com/alanriya/spark-pipeline",
+  },
+  {
+    title: "Terraform on Kind",
+    summary:
+      "Deploys containerised applications to a local Kubernetes cluster with Terraform.",
+    tags: ["Terraform", "Kubernetes"],
+    image: "/images/projects/terraform-kind-cluster.png",
+    link: "https://github.com/alanriya/terraform-kind-playground",
+  },
+  {
+    title: "TF-IDF Search Engine",
+    summary:
+      "Inverted index and ranked query search over Wikipedia dumps, as a Python console app.",
+    tags: ["Python", "TF-IDF"],
+    image: "/images/projects/tfidf-search-engine.gif",
+    link: "https://github.com/alanriya/symmetrical-search",
+  },
+  {
+    title: "Airflow Data Pipeline",
+    summary:
+      "Scheduled pipeline that checks API availability, downloads data, loads a local database and sends email alerts on failure.",
+    tags: ["Airflow", "Docker", "Python"],
+    image: "/images/projects/airflow-data-pipeline.gif",
     link: "https://github.com/alanriya/airflowPipeline",
   },
-  {
-    title: "Trading Platform",
-    subtitle: "C# .NET 6.0 framework",
-    description:
-      "This is a trading platform set up using C#. it consists of the market data injector, simulated exchange, orderbook, strategy component. The data is first read from the txt file and pass the message down using multicast UDP. The orderbook object will process the message received from the UDP channel and builds the book. The Strategy object is a simple strategy that buys when instrument price is higher than a certain price. When the condition is met, the strategy will place an buy order to the simulated exchange at the best ask price. The exchange will reply with the filled order. At the end of the trading session, the all the position in the strategy will be reversed and the pnl will be computed.",
-    image: "./tradingPlatform.gif",
-    link: "https://github.com/alanriya/TradingPlatformSample",
-  }
 ];
 
-export const backgrounds = [
+export const skills = [
   {
-    cardTitle: 'BondIT Global, Data Analyst Internship',
-    cardSubtitle:
-      "Embarked on a 6-months internship at a Financial Technology company in Israel.",
-    title: "Jan 2018 - Jun 2019",
-    cardDetailedText: "Led the research of an algorithm analysing the interpolated and zero-volatility spreads of similar bond groups using Python which was subsequently implemented in the mainframe and improved BondIT's proactive trade call",
+    group: "Credentials",
+    items: [
+      "CFA Level 1 (passed)",
+      "CFA Level 2 (candidate)",
+      "Google Professional Data Engineer",
+      "AWS DevOps Professional",
+      "Udacity Data Scientist Nanodegree",
+    ],
   },
   {
-    cardTitle: 'Bachelors in Engineering',
-    cardSubtitle:
-      "Graduated with Bachelors in Chemical Engineering (Honours with Distinction) from National University of Singapore.",
-    title: "Jun 2019",
-    cardDetailedText: "Graduated with Honours with Distinction and was awarded President's Sport Team of the Year and NUS Sports Team of the Year.",
+    group: "Quant & Finance",
+    items: [
+      "Point-in-time backtesting data",
+      "Continuous futures price series (GSCI)",
+      "Time series modelling (VAR)",
+      "Option pricing",
+      "Order book analytics",
+      "Risk & P&L monitoring",
+    ],
   },
+  { group: "Languages", items: ["Python", "SQL", "Bash", "R"] },
   {
-    cardTitle: `Post Graduate Degree`,
-    cardSubtitle:
-      "Graduated with a Financial Engineering master's degree from Nanyang Technological University and certificate in Computational Finance from Carnegie Mellon University",
-    title: "May 2021",
-    cardDetailedText: "Learned various option pricing techniques, time series modelling, stochastic calculus and C++ programming."
+    group: "Data Platform",
+    items: ["Databricks", "Delta Lake", "Snowflake", "Spark", "PostgreSQL", "TimescaleDB"],
   },
+  { group: "Streaming & Orchestration", items: ["Airflow", "Flink", "Kafka", "RabbitMQ"] },
   {
-    cardTitle: 'LegendArb Financial Group, Quantitative Developer/ Analyst',
-    cardSubtitle:
-      "Exposure to small proprietary trading shop",
-    title: "Feb 2020 - Nov 2021",
-    cardDetailedText: "Exposed to multiple areas of a proprietary trading business: database development, infrastructure development, market connectivity, trading alpha research and trading operations.",
+    group: "Cloud & DevOps",
+    items: ["AWS (EKS, MWAA)", "Google Cloud Platform", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "Linux (Ubuntu, RHEL)"],
   },
-  {
-    cardTitle: 'Lynx Analytics Pte Ltd, Data Engineer',
-    cardSubtitle:
-      "Exploring a career in Big Data Engineering focusing on data orchestration and devops",
-    title: "May 2022 - March 2023",
-    cardDetailedText: "Built Big Data Engineering solutions for partnering clients in the healthcare industry. Learned a lot in the area of Data Orchestration using Apache Airflow, and received my Professional Google Data Engineer Certification.",
-  },
-  {
-    cardTitle: 'GIC Pte Ltd, Investment Insights Group - Software Engineer',
-    cardSubtitle:
-      "GIC Business Partners Solutions (BPS) Front Office is a team within GIC that provides technology solutions to the investment teams within GIC. The Investment Insights Group (IIG) is a team within GBPS that focuses on data engineering and data science solutions for the investment teams.",
-    title: "March 2023 - Present",
-    cardDetailedText: "I maintained the quant research library and multi-node orchestration (Docker + MWAA), added CI/CD with GitHub Actions, and established model production practices (versioned packages, scheduled pipelines, controlled rollbacks). I migrated the platform and key quant apps (Axioma, model-management for quant model weights hamonization) to EKS for a consistent deploy surface. AWS DevOps certified.",
-  },
-
-];
-
- export const skills = [
-  // Programming Languages
-  "Programming Language : Python for Quantitative Research and Data Engineering",
-  "Programming Language : Java for Big Data Analytics",
-  "Programming Language : Basic Javascripts for this website",
-  "Programming Language : R for Statistical Analysis",
-  "Scripting Language : Bash Scripting for Automation",
-
-  // Data Engineering & Orchestration
-  "Data Engineering & Orchestration : Structured Databases - PostgreSQL, TimescaleDB",
-  "Data Engineering & Orchestration : Apache Spark",
-  "Data Engineering & Orchestration : Apache AirFlow",
-  "Data Engineering & Orchestration : RabbitMQ/ Apache Kafka",
-
-  // Cloud & Distributed Computing
-  "Cloud & Distributed Computing : AWS Cloud Services",
-  "Cloud & Distributed Computing : Google Cloud Platform (GCP)",
-
-  // DevOps & Deployment
-  "DevOps & Deployment : Docker, Docker Swarm, Kubernetes Basics",
-  "DevOps & Deployment : Kubernetes",
-  "DevOps & Deployment : Terraform",
-  "DevOps & Deployment : AWS CI/CD",
-  "DevOps & Deployment : GitHub Actions for CI/CD",
-
-  // Site Reliability & Monitoring
-  "Site Reliability & Monitoring : Datadog"
+  { group: "Observability", items: ["Datadog", "Splunk", "Prometheus", "Grafana", "StatsD"] },
 ];
