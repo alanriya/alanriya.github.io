@@ -2,7 +2,7 @@
 
 export const profile = {
   name: "Alan Lee",
-  role: "Quantitative Developer, Assistant Vice President",
+  role: "Quantitative Developer",
   headline: "I build the data and infrastructure that takes quantitative research into production.",
   summary:
     "Quantitative developer at GIC working on point-in-time data platforms, continuous derivative price series and production quant libraries. Previously systematic trading infrastructure at LegendArb. MSc Financial Engineering.",
@@ -13,11 +13,15 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/alanleeyc/",
   photo: "/images/profile.jpg",
   facts: [
-    { label: "Currently", value: "Quant Developer, AVP, GIC" },
+    { label: "Currently", value: "Quantitative Developer, AVP, GIC" },
     { label: "CFA Program", value: "Level 1 passed, Level 2 candidate" },
-    { label: "Education", value: "MSc Financial Engineering, NTU" },
-    { label: "Certified", value: "GCP Data Engineer, AWS DevOps Pro" },
-  ],
+    { label: "Masters", value: "MSc Financial Engineering, NTU" },
+    { label: "Undergraduate", value: "BSc Chemical Engineering, NUS" },
+    { label: "Data Science", value: "Micro Degree in Data Science, Udacity" },
+    { label: "Cloud Certificates", value: "GCP Data Engineer, AWS DevOps Pro" },
+    { label: "Experience", value: "Systematic trading, Quant Research Infrastructure and data engineering" },
+    { label: "Interest", value: "Running, Horology"}
+  ]
 };
 
 // Newest first. Add a new job by copying a block to the top of the list.
@@ -90,6 +94,14 @@ export const projects = [
     link: "https://github.com/alanriya/OptionPricer",
   },
   {
+    title: "Project Blaze",
+    summary:
+      "Lambda architecture combining real-time stream processing with a parallel batch layer, backed by a time series database.",
+    tags: ["Kafka", "Spark", "Flink", "Airflow", "TimescaleDB"],
+    image: "/images/projects/project-blaze.png",
+    link: "https://github.com/alanriya/turbo-waddle",
+  },
+  {
     title: "Trading Platform",
     summary:
       "Market data injector over multicast UDP, simulated exchange, order book and a simple strategy that trades and reports end-of-day P&L.",
@@ -104,14 +116,6 @@ export const projects = [
     tags: ["Python", "RabbitMQ", "TCP"],
     image: "/images/projects/market-data-dartboard.gif",
     link: "https://github.com/alanriya/dataTransfer",
-  },
-  {
-    title: "Project Blaze",
-    summary:
-      "Lambda architecture combining real-time stream processing with a parallel batch layer, backed by a time series database.",
-    tags: ["Kafka", "Spark", "Flink", "Airflow", "TimescaleDB"],
-    image: "/images/projects/project-blaze.png",
-    link: "https://github.com/alanriya/turbo-waddle",
   },
   {
     title: "High Availability Airflow",
