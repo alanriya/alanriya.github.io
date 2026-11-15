@@ -1,31 +1,26 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
+import SectionTitle from "./SectionTitle";
 
 export default function Skills() {
   return (
-    <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
-            Skills &amp; Technologies
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          </p>
-        </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/3 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
+    <section id="skills" className="bg-slate-50">
+      <div className="mx-auto max-w-6xl px-6 py-24">
+        <SectionTitle index="03">Skills</SectionTitle>
+        <dl className="space-y-8">
+          {skills.map(({ group, items }) => (
+            <div key={group} className="grid gap-3 md:grid-cols-4 md:gap-10">
+              <dt className="font-mono text-sm uppercase tracking-widest text-accent">{group}</dt>
+              <dd className="flex flex-wrap gap-2 md:col-span-3">
+                {items.map((item) => (
+                  <span key={item} className="bg-ink px-4 py-2 text-sm font-medium text-white">
+                    {item}
+                  </span>
+                ))}
+              </dd>
             </div>
           ))}
-        </div>
+        </dl>
       </div>
     </section>
   );

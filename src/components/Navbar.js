@@ -1,34 +1,33 @@
-// src/components/Navbar.js
-
-import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import { profile } from "../data";
+import { mailto } from "./EmailButtons";
+
+const links = [
+  ["Experience", "#experience"],
+  ["Projects", "#projects"],
+  ["Skills", "#skills"],
+];
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Alan Lee
-          </a>
+    <header className="sticky top-0 z-10 border-b border-white/10 bg-ink/90 backdrop-blur">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
+        <a href="#top" className="font-mono text-sm font-medium tracking-tight text-white">
+          {profile.name.toLowerCase().replace(" ", ".")}
+          <span className="text-accent-light">_</span>
         </a>
-        <nav className="md:mr-auto md:ml-4 text-white md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:bg-gray-700">
-            Projects
-          </a>
-          <a href="#skills" className="mr-5 text-white hover:bg-gray-700">
-            Skills
-          </a>
-          <a href="#background" className="mr-5 text-white hover:bg-gray-700">
-            Background
+        <nav className="flex items-center gap-8 text-sm">
+          {links.map(([label, href]) => (
+            <a key={href} href={href} className="hidden text-slate-400 transition hover:text-white sm:block">
+              {label}
+            </a>
+          ))}
+          <a
+            href={mailto}
+            className="border border-accent-light px-4 py-1.5 font-medium text-accent-light transition hover:bg-accent-light hover:text-ink">
+            Email me
           </a>
         </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center text-white bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Get in touch!
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
       </div>
     </header>
   );
