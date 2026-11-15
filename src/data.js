@@ -86,6 +86,14 @@ export const education = [
 
 export const projects = [
   {
+    title: "Derivative Pricing Scripts",
+    summary:
+      "Streamlit app valuing forward rate agreements, interest rate swaps and currency swaps from an uploaded spot curve, with linear interpolation of money-market rates.",
+    tags: ["Python", "Streamlit", "Interest Rate Derivatives"],
+    image: "/images/projects/derivative-pricing-scripts.gif",
+    link: "https://github.com/alanriya/derivative-pricing-scripts",
+  },
+  {
     title: "Derivative Pricer",
     summary:
       "C++/Qt6 app pricing vanilla, exotic and American options with Monte Carlo and risk-neutral binary trees. Extensible through abstract payoff classes.",
